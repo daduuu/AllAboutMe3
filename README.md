@@ -1,1 +1,1 @@
-# AllAboutMe3
+## Rewrite of my personal website with typescript + react
