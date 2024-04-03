@@ -37,7 +37,7 @@ export default function Header() {
 
 
   return (
-      <div className="w-full flex justify-between py-3 place-items-center px-7 bg-black">
+      <div className="w-full flex justify-between py-3 place-items-center px-7 bg-black fixed top-0">
           <div className="LEFT flex">
             <div className="flex place-items-center">
               <Typography className="text-white" variant="lead">

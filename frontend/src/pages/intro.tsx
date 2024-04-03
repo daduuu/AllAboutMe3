@@ -20,7 +20,7 @@ export default function Intro() {
                     <FadeIn>
                         <TypeAnimation
                             sequence={[
-                                'Hello! My Name Is David Du',
+                                'Hello! I\'m David Du',
                                 200
                             ]}
                             wrapper="div"

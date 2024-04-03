@@ -6,10 +6,10 @@ module.exports = withMT({
   content: ["./index.html", "./src/**/*.{ts,tsx}", "./src/components/**/*.{ts,tsx}"],
   theme: {
     fontFamily: {
-      sans: ['"Cormorant Garamond"', 'sans-serif']
+      sans: ['"Roboto"', 'sans-serif']
     },
     fontWeight: {
-      medium : "500"
+      medium : "700"
     },
     extend: {
       backgroundImage: {

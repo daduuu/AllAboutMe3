@@ -48,7 +48,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "Cormorant Garamond", sans-serif, "Cormorant Garamond", sans-serif;
+  font-family: "Roboto", sans-serif, "Roboto", sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -802,12 +802,24 @@ video {
   grid-column-start: 3;
 }
 
+.col-start-4{
+  grid-column-start: 4;
+}
+
+.col-start-5{
+  grid-column-start: 5;
+}
+
 .m-0{
   margin: 0px;
 }
 
 .m-0\.5{
   margin: 0.125rem;
+}
+
+.m-1{
+  margin: 0.25rem;
 }
 
 .m-2{
@@ -1164,6 +1176,14 @@ video {
   width: 100vw;
 }
 
+.w-1\/2{
+  width: 50%;
+}
+
+.w-2\/3{
+  width: 66.666667%;
+}
+
 .min-w-\[100vw\]{
   min-width: 100vw;
 }
@@ -1371,8 +1391,16 @@ video {
           appearance: none;
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-subgrid{
@@ -1417,6 +1445,10 @@ video {
 
 .gap-1{
   gap: 0.25rem;
+}
+
+.gap-12{
+  gap: 3rem;
 }
 
 .gap-2{
@@ -2400,6 +2432,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-7{
+  padding: 1.75rem;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2540,7 +2576,7 @@ video {
 }
 
 .font-sans{
-  font-family: "Cormorant Garamond", sans-serif, "Cormorant Garamond", sans-serif;
+  font-family: "Roboto", sans-serif, "Roboto", sans-serif;
 }
 
 .\!text-\[11px\]{
@@ -2592,7 +2628,7 @@ video {
 }
 
 .font-medium{
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .uppercase{
@@ -5910,6 +5946,16 @@ video {
     line-height: 2rem;
   }
 
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
@@ -5927,8 +5973,16 @@ video {
 }
 
 @media (min-width: 960px){
+  .lg\:m-2{
+    margin: 0.5rem;
+  }
+
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:h-5{
+    height: 1.25rem;
   }
 
   .lg\:w-2\/4{
@@ -5945,6 +5999,14 @@ video {
 
   .lg\:w-3\/5{
     width: 60%;
+  }
+
+  .lg\:w-5{
+    width: 1.25rem;
+  }
+
+  .lg\:w-auto{
+    width: auto;
   }
 
   .lg\:min-w-\[40\%\]{
@@ -5977,6 +6039,14 @@ video {
 
   .lg\:max-w-\[75\%\]{
     max-width: 75%;
+  }
+
+  .lg\:gap-12{
+    gap: 3rem;
+  }
+
+  .lg\:gap-4{
+    gap: 1rem;
   }
 }
 
